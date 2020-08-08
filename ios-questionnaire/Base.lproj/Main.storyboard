@@ -58,7 +58,7 @@
                                 <rect key="frame" x="62" y="184.33333333333334" width="290" height="29"/>
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tFi-ru-jVd">
-                                        <rect key="frame" x="101" y="-1.3333333333333428" width="179" height="33"/>
+                                        <rect key="frame" x="101" y="-2" width="179" height="33"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="32" id="mgu-Ro-FTj"/>
                                         </constraints>
@@ -68,7 +68,7 @@
                                         </segments>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoy-dF-zO5">
-                                        <rect key="frame" x="9.9999999999999964" y="4" width="56.666666666666657" height="21"/>
+                                        <rect key="frame" x="9.9999999999999964" y="4" width="56.666666666666657" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="QWM-wK-Bz0"/>
                                         </constraints>
@@ -164,7 +164,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSn-9h-Nq1">
-                                        <rect key="frame" x="8" y="17.666666666666629" width="58" height="20.666666666666671"/>
+                                        <rect key="frame" x="8" y="17.666666666666742" width="47.333333333333336" height="20.666666666666671"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -177,13 +177,11 @@
                                     <constraint firstItem="pJB-cy-vQj" firstAttribute="top" secondItem="3tO-jx-qxF" secondAttribute="top" constant="18" id="XPY-wm-Tef"/>
                                     <constraint firstItem="pJB-cy-vQj" firstAttribute="top" secondItem="Hx9-Sf-vVw" secondAttribute="top" id="ZSc-dS-QG2"/>
                                     <constraint firstAttribute="width" secondItem="3tO-jx-qxF" secondAttribute="height" multiplier="6:1" id="etK-c9-LHZ"/>
-                                    <constraint firstItem="Hx9-Sf-vVw" firstAttribute="leading" secondItem="JSn-9h-Nq1" secondAttribute="trailing" constant="23" id="i9x-St-9Uf"/>
                                     <constraint firstItem="Hx9-Sf-vVw" firstAttribute="centerX" secondItem="3tO-jx-qxF" secondAttribute="centerX" id="kZN-Ag-2h4"/>
                                     <constraint firstItem="pJB-cy-vQj" firstAttribute="centerY" secondItem="3tO-jx-qxF" secondAttribute="centerY" id="lBL-NW-QBw"/>
                                     <constraint firstItem="pJB-cy-vQj" firstAttribute="leading" secondItem="Hx9-Sf-vVw" secondAttribute="trailing" constant="25" id="qyH-XN-40c"/>
                                     <constraint firstItem="Hx9-Sf-vVw" firstAttribute="centerY" secondItem="3tO-jx-qxF" secondAttribute="centerY" id="rt5-iN-5Cf"/>
                                     <constraint firstItem="JSn-9h-Nq1" firstAttribute="centerY" secondItem="3tO-jx-qxF" secondAttribute="centerY" id="sQe-xd-lfS"/>
-                                    <constraint firstItem="JSn-9h-Nq1" firstAttribute="top" secondItem="3tO-jx-qxF" secondAttribute="top" constant="17.666666666666629" id="sxK-A9-EeD"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="epB-ZP-oVx" userLabel="StraightView">
